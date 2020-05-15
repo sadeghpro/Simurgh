@@ -4,13 +4,13 @@ import android.content.Context;
 import android.opengl.GLSurfaceView;
 import dev.simurgh.app.Controller;
 
-public class SimurghOpenGl extends GLSurfaceView {
+public class SimurghOpenGL extends GLSurfaceView {
 
     static {
         System.loadLibrary("nanovg");
     }
 
-    public SimurghOpenGl(Context context) {
+    public SimurghOpenGL(Context context) {
         super(context);
     }
 
