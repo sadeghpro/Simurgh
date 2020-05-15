@@ -1,0 +1,15 @@
+
+apply plugin: 'java-library'
+
+project.ext.lwjglVersion = "3.2.3"
+
+dependencies {
+    api platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
+
+    api "org.lwjgl:lwjgl"
+    api "org.lwjgl:lwjgl-glfw"
+    api "org.lwjgl:lwjgl-opengl"
+
+    api project(':app')
+    api 'dev.simurgh:nanovg:0.1.3'
+}
