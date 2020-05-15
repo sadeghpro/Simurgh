@@ -8,4 +8,6 @@
  */
 
 rootProject.name = 'simurgh'
+include 'core'
+include 'core:android'
 include 'app'
