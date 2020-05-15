@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+
+dependencies {
+    implementation project(':app')
+    implementation 'dev.simurgh:nanovg:0.1.3'
+}
