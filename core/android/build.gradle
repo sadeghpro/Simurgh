@@ -17,10 +17,10 @@ android {
 }
 
 dependencies {
-    runtimeOnly 'dev.simurgh:nanovg:0.1.3:android@aar'
+    runtimeOnly 'dev.simurgh:nanovg:0.1.6:android@aar'
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
     api project(':app')
-    api 'dev.simurgh:nanovg:0.1.3'
+    api 'dev.simurgh:nanovg:0.1.6'
 }

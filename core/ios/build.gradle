@@ -1,0 +1,18 @@
+apply plugin: 'java-library'
+apply plugin: 'robovm'
+
+ext {
+    roboVMVersion = "2.3.10-SNAPSHOT"
+}
+
+robovm {
+}
+
+dependencies {
+    api 'dev.simurgh:nanovg:0.1.6:ios'
+
+    api "com.mobidevelop.robovm:robovm-rt:${roboVMVersion}"
+    api "com.mobidevelop.robovm:robovm-cocoatouch:${roboVMVersion}"
+    api project(':app')
+    api 'dev.simurgh:nanovg:0.1.6'
+}

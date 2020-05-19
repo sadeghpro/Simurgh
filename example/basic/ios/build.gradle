@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+apply plugin: 'robovm'
+
+
+dependencies {
+
+    implementation project(':core:ios')
+    implementation project(':example:basic:core')
+}

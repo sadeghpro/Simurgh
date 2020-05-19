@@ -10,5 +10,5 @@ dependencies {
     implementation "org.lwjgl:lwjgl-opengl"
 
     api project(':app')
-    api 'dev.simurgh:nanovg:0.1.3'
+    api 'dev.simurgh:nanovg:0.1.6'
 }
